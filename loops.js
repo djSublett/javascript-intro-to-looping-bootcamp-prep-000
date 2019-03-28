@@ -30,7 +30,7 @@ function doWhileLoop(num) {
   } while (incrementVariable(i) < num);
 }
 
-function incrementVariable(num) {
+function incrementVariable(i) {
   i = i + 1;
   return i;
 }
